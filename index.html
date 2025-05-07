@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Amor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>FELIZ DOIS MESES!!!</h1>
+    <div class="slider">
+
+        <div class="slides">
+          <div id="slide-1">
+            <img src="img/imagem01.jpeg" alt="">
+          </div>
+          <div id="slide-2">
+            <img src="img/imagem02.jpeg" alt="">
+          </div>
+          <div id="slide-3">
+            <img src="img/imagem03.jpeg" alt="">
+          </div>
+          <div id="slide-4">
+            <img src="img/imagem04.jpeg" alt="">
+          </div>
+          <div id="slide-5">
+            <img src="img/imagem06.jpeg" alt="">
+          </div>
+        </div>
+
+      </div>
+
+      <div id="carta">
+        <section>
+          <h2>Cartinha para meu amor</h2>
+          <p>Meu amor, completamos dois meses. Nem parece que faz tão pouco tempo — na minha cabeça, estamos juntos há muito mais.</p>
+
+          <p>Vou ser sincero: você foi uma surpresa na minha vida. Eu não planejava ter alguém assim, mas sabe... foi uma boa surpresa.</p>
+
+          <p>Você se tornou uma pessoa muito importante para mim. Pode ter certeza de que eu te amo muito!</p>
+
+          <p>Vou me esforçar para ser um bom namorado para você, então tenha um pouco de paciência — você é minha primeira namorada, e espero que seja a única.
+            Te amo! Feliz dois meses, meu amor!</p>
+
+          <button id="fechar" onclick="fechar()">fechar</button>
+
+        </section>
+      </div>
+
+      <div id="musica">
+        <audio src="Lagum-MeuEsquema.mp3" controls></audio>
+      </div>
+
+      <div>
+        <button id="aperte" onclick="teamo()">APERTE</button>
+      </div>
+
+
+      <script>
+        function teamo(){
+            var carta = document.getElementById("carta");
+            var apertar = document.getElementById("aperte")
+
+            carta.style.display = "block"
+            aperte.style.display = "none"
+        }
+
+        function fechar(){
+          var fechar = document.getElementById("carta")
+
+          var apertar = document.getElementById("aperte")
+
+          fechar.style.display = "none"
+          aperte.style.display = "block"
+          
+        }
+      </script>
+</body>
+</html>
