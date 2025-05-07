@@ -134,6 +134,7 @@ button{
   display: flex;
   flex-direction: column;
   height: 700px;
+  padding: 5px;
   width: 350px;
   background-color: aliceblue;
   border: 2px solid black;
